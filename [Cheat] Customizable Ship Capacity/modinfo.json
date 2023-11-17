@@ -1,9 +1,9 @@
 {
     "Version": "1.0.0",
-    "ModID": "Moon_NoRoyalTaxes",
+    "ModID": "Moon_CustomizableShipCapacity",
     "ModDependencies": null,
     "LoadAfterIds": null,
-    "IncompatibleIds": ["Spice_RoyalTaxes"],
+    "IncompatibleIds": ["Spice_Shipcapacity"],
     "DLCDependencies": null,
     "KnownIssues": null,
     "Category": {
@@ -21,9 +21,9 @@
     },
     "ModName": {
         "Chinese": null,
-        "English": "No Royal Taxes",
+        "English": "Customizable Ship Capacity",
         "French": null,
-        "German": "Keine königlichen Steuern",
+        "German": "Anpassbare Schiffs Kapazität",
         "Italian": null,
         "Japanese": null,
         "Korean": null,
@@ -34,9 +34,9 @@
     },
     "Description": {
         "Chinese": null,
-        "English": "Removes royal taxes completely. There is nothing else done to balance it out.",
+        "English": "file::readme_english.md",
         "French": null,
-        "German": "Entfernt königliche Steuern komplett. Es wurde sonst nichts getan um das ganze auszugleichen.",
+        "German": "TODO",
         "Italian": null,
         "Japanese": null,
         "Korean": null,
@@ -48,5 +48,4 @@
     "CreatorName": "Moonwolf287",
     "CreatorContact": "https://github.com/Moonwolf287/anno1800-mods",
     "BannerImage": "banner.png",
-    "ModioResourceId": "3501505"
 }
