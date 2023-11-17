@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - CreatorContact, ModioResourceId & BannerImage to modinfo.
 
+### Changed
+
+- Renamed mod folder to fit mod name.
+
 ### Fixed
 
 - Naming of modinfo.json to be compatible with case-sensitive OS.
