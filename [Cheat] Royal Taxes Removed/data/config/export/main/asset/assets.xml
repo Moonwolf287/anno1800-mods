@@ -1,0 +1,5 @@
+<ModOps>
+    <ModOp Type="replace" GUID="1010000" Path="/Values/EconomyFeature7/MetropolisFactor">
+        <MetropolisFactor />
+    </ModOp>
+</ModOps>

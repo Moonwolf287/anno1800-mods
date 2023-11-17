@@ -1,0 +1,52 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Moon_NoRoyalTaxes",
+  "ModDependencies": null,
+  "LoadAfterIds": null,
+  "IncompatibleIds": ["Spice_RoyalTaxes"],
+  "DLCDependencies": null,
+  "KnownIssues": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Cheat",
+    "French": null,
+    "German": "Cheat",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "No Royal Taxes",
+    "French": null,
+    "German": "Keine königlichen Steuern",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Removes royal taxes completely. There is nothing else done to balance it out.",
+    "French": null,
+    "German": "Entfernt königliche Steuern komplett. Es wurde sonst nichts getan um das ganze auszugleichen.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "CreatorName": "Moonwolf287",
+  "CreatorContact": "https://github.com/Moonwolf287/anno1800-mods",
+  "BannerImage": "banner.png",
+  "ModioResourceId": "3501505"
+}
