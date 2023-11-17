@@ -83,7 +83,4 @@ jobs:
           version: ${{ steps.metadata.outputs.VERSION }}
           path: "${{ matrix.dir }}.zip"
           changelog: ${{ steps.extract_changelog.outputs.release_notes }}
-          active: false
-      
-      
     
