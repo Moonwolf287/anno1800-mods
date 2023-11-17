@@ -1,5 +1,5 @@
 ### Combined Customizable Research and Items Mod
-![banner](https://github.com/Moonwolf287/anno1800-mods/blob/main/%5BCheat%5D%20Customizable%20Ship%20Capacity/banner.png)
+![banner](https://raw.githubusercontent.com/Moonwolf287/anno1800-mods/main/%5BCheat%5D%20Customizable%20Ship%20Capacity/banner.png)
 
 Diese mod erlaubt es die Frachtkapazität, anzahl der Warenplätze und Itemplätze nach deinem Belieben einzustellen. Es erlaubt dir auch die Kapazität der Handelsruten anzupassen um diese Änderungen wiederzuspiegeln.
 
