@@ -1,0 +1,21 @@
+<ModOps>
+  <ImyaTweaks Title="The Great Eastern" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_real_great_eastern.png" />
+  <!-- 118718 = Great Eastern (Trade), 15836 = Great Eastern (Trade-Creative-Mode) aka The Creative Eastern -->
+  <!-- NOT USED: 
+          80067 2nd skin (DEPRECATED) 
+  -->
+  <ModOp Type="merge" GUID="118718,15836" Path="/Values/ItemContainer" ModOpID="MWGreatEasternOP" Skip="1">
+    <SlotCount>8</SlotCount>
+    <StackLimit>50</StackLimit>
+    <SocketCount>3</SocketCount>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWGreatEasternOP" ExposeID="The Great Eastern SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. [Default = 8]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWGreatEasternOP" ExposeID="The Great Eastern StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 50] [Spice it Up = 100]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWGreatEasternOP" ExposeID="The Great Eastern SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 3]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_GreatEastern.imyatweak.include.xml" />
+</ModOps>

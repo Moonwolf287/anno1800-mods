@@ -1,0 +1,30 @@
+<ModOps>
+  <ImyaTweaks Title="Trade Route Adjustment" Description="Since the Cargo ammount has changed the trade ammounts should also be changed." Icon="data/ui/2kimages/main/3dicons/influence/icon_charterroute_3d.png" />
+  <ModOp Type="merge" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Normal" ModOpID="MWNormalTradeRoute" Skip="1">
+    <DefaultGoodTransferAmount>50</DefaultGoodTransferAmount>
+    <MaxGoodTransferAmount>50</MaxGoodTransferAmount>
+  </ModOp>
+  <ImyaExpose Path="self::DefaultGoodTransferAmount" ModOpID="MWNormalTradeRoute" ExposeID="Default Good Transfer Amount" Description="Adjust the default trade route transfer amount. It is suggested to keep this the same as the smallest StackSize you have set for your ships. [Default = 50]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::MaxGoodTransferAmount" ModOpID="MWNormalTradeRoute" ExposeID="Max Good Transfer Amount" Description="Adjust the maximum trade route transfer amount. It is suggested to keep this the same as the biggest StackSize you have set for your ships (aside from Oil Tanker). [Default = 50]">
+  </ImyaExpose>
+  <ModOp Type="merge" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Oil" ModOpID="MWOilTradeRoute" Skip="1">
+    <DefaultGoodTransferAmount>400</DefaultGoodTransferAmount>
+    <MaxGoodTransferAmount>400</MaxGoodTransferAmount>
+  </ModOp>
+  <ImyaExpose Path="self::DefaultGoodTransferAmount" ModOpID="MWOilTradeRoute" ExposeID="Oil Default Good Transfer Amount" Description="Adjust the default oil trade route transfer amount. It is suggested to keep this the same as the Oil Tanker StackSize. [Default = 400]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::MaxGoodTransferAmount" ModOpID="MWOilTradeRoute" ExposeID="Oil Max Good Transfer Amount" Description="Adjust the maximum oil trade route transfer amount. It is suggested to keep this the same as the Oil Tanker StackSize. [Default = 400]">
+  </ImyaExpose>
+  <!--
+  <ModOp Type="merge" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Mail" ModOpID="MWMailTradeRoute" Skip="1">
+    <DefaultGoodTransferAmount>50</DefaultGoodTransferAmount>
+    <MaxGoodTransferAmount>50</MaxGoodTransferAmount>
+  </ModOp>
+  <ImyaExpose Path="self::DefaultGoodTransferAmount" ModOpID="MWMailTradeRoute" ExposeID="Airship Mail Default Good Transfer Amount" Description="Adjust the default airship mail trade route transfer amount. [Default = 50]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::MaxGoodTransferAmount" ModOpID="MWMailTradeRoute" ExposeID="Airship Mail Max Good Transfer Amount" Description="Adjust the maximum airship mail trade transfer amount. [Default = 50]">
+  </ImyaExpose>
+  -->
+  <Include File="./assets_TradeRoute.imyatweak.include.xml" />
+</ModOps>

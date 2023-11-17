@@ -1,0 +1,23 @@
+<ModOps>
+  <ImyaTweaks Title="Cargo Ship (aka Collier)" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_collier.png" />
+  <!-- 1010062 = Collier (Trade) -->
+  <!-- NOT USED:
+          119360 = 2nd Skin (DEPRECATED)
+        QO / CQO / TQO:
+          100624, 102374, 102417, 102617, 102304, 102563, 102630, 102861, 110811, 111927
+  -->
+  <ModOp Type="merge" GUID="1010062" Path="/Values/ItemContainer" ModOpID="MWCollierOP" Skip="1">
+    <SlotCount>6</SlotCount>
+    <StackLimit>50</StackLimit>
+    <SocketCount>2</SocketCount>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWCollierOP" ExposeID="Collier SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. [Default = 6]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWCollierOP" ExposeID="Collier StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 50] [Spice it Up = 100]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWCollierOP" ExposeID="Collier SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 2]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_Collier.imyatweak.include.xml" />
+</ModOps>

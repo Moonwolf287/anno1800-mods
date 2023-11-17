@@ -1,0 +1,23 @@
+<ModOps>
+  <ImyaTweaks Title="Ship-of-the-line (aka Liner)" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_liner.png" />
+  <!-- 100440 = Liner (Military), 119093 = Liner (Military) Ketema -->
+  <!-- NOT USED:
+          102431 = Pirate Liner, 102419 = Pirate Liner - For Sale, 102427 = Royal Liner - For Sale,
+        QO / CQO / TQO:
+          100566, 102370, 102378, 102613, 102650, 102656, 102880, 103063, 103087, 110704, 111165, 111201
+  -->
+  <ModOp Type="merge" GUID="100440, 119093" Path="/Values/ItemContainer" ModOpID="MWLinerOP" Skip="1">
+    <SlotCount>3</SlotCount>
+    <StackLimit>50</StackLimit>
+    <SocketCount>3</SocketCount>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWLinerOP" ExposeID="Liner SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. [Default = 3]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWLinerOP" ExposeID="Liner StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 50] [Spice it Up = 75]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWLinerOP" ExposeID="Liner SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 3]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_Liner.imyatweak.include.xml" />
+</ModOps>

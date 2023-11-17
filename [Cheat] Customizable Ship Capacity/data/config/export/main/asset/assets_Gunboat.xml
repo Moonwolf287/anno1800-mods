@@ -1,0 +1,25 @@
+<ModOps>
+  <ImyaTweaks Title="Gunboat" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_gunboat.png" />
+  <!-- 100437 = Gunboat (Military) -->
+  <!-- NOT USED:
+          104019 = AirshipPirate_Pirate Gunboat, 102429 = Pirate Gunboat, 
+        QO / CQO / TQO:
+          100563, 102367, 102610, 102556, 102882
+        Non Controllables:
+          103091 = Pirate Gunboat Willie Respecting Privacy
+  -->
+  <ModOp Type="merge" GUID="100437" Path="/Values/ItemContainer" ModOpID="MWGunboatOP" Skip="1">
+    <SocketCount>2</SocketCount>
+    <SlotCount>1</SlotCount>
+    <StackLimit>50</StackLimit>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWGunboatOP" ExposeID="Gunboat SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. [Default = 2]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWGunboatOP" ExposeID="Gunboat StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 50]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWGunboatOP" ExposeID="Gunboat SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 1]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_Gunboat.imyatweak.include.xml" />
+</ModOps>

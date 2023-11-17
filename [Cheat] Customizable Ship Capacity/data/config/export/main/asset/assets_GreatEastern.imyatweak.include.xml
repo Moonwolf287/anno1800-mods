@@ -1,0 +1,7 @@
+<ModOps>
+  <ModOp Path="/Values/ItemContainer" GUID="118718,15836" Type="merge">
+    <SlotCount>8</SlotCount>
+    <StackLimit>50</StackLimit>
+    <SocketCount>3</SocketCount>
+  </ModOp>
+</ModOps>

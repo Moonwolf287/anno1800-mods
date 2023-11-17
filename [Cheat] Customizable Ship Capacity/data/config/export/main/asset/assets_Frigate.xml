@@ -1,0 +1,25 @@
+<ModOps>
+  <ImyaTweaks Title="Frigate" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_frigatte.png" />
+  <!-- 100439 = Frigate (Military), 119094 = Frigate (Military) Ketema-->
+  <!-- NOT USED:
+          104018 = AirshipPirate_Pirate Frigate, 102430 = Pirate Frigate, 102421 = Pirate Frigate - For Sale,
+        QO / CQO / TQO:
+          129684, 100565, 102369, 102377, 102635, 102636, 102637, 102612, 102385, 102519, 102881, 103070, 110816, 111164, 80023
+        Non Controllables:
+          102506 = Pirate Frigate Willie
+  -->
+  <ModOp Type="merge" GUID="100439,119094" Path="/Values/ItemContainer" ModOpID="MWFrigateOP" Skip="1">
+    <SlotCount>3</SlotCount>
+    <StackLimit>50</StackLimit>
+    <SocketCount>2</SocketCount>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWFrigateOP" ExposeID="Frigate SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. [Default = 3]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWFrigateOP" ExposeID="Frigate StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 50] [Spice it Up = 75]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWFrigateOP" ExposeID="Frigate SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 2]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_Frigate.imyatweak.include.xml" />
+</ModOps>

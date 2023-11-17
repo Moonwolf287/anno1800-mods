@@ -1,0 +1,18 @@
+<ModOps>
+  <ImyaTweaks Title="Oil Tanker" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_oil_tanker.png" />
+  <!-- 100853 = Oil Tanker -->
+  <ModOp Type="merge" GUID="100853" Path="/Values/ItemContainer" ModOpID="MWTankerOP" Skip="1">
+    <SocketCount>0</SocketCount>
+    <SlotCount>1</SlotCount>
+    <StackLimit>400</StackLimit>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWTankerOP" ExposeID="Oil Tanker SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. This one is special so adjust at your own risk! [Default = 1]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWTankerOP" ExposeID="Oil Tanker StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 400] [Spice it Up = 500]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWTankerOP" ExposeID="Oil Tanker SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 0]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_Tanker.imyatweak.include.xml" />
+</ModOps>

@@ -1,0 +1,37 @@
+<ModOps>
+    <!-- Shooner -->
+    <Include File="./assets_Shooner.xml" />
+
+    <!-- Gunboat -->
+    <Include File="./assets_Gunboat.xml" />
+
+    <!-- Frigate  -->
+    <Include File="./assets_Frigate.xml" />
+
+    <!-- Clipper -->
+    <Include File="./assets_Clipper.xml" />
+
+    <!-- Ship-of-the-line (aka Liner) -->
+    <Include File="./assets_Liner.xml" />
+  
+    <!-- Cargo Ship (aka Collier) -->
+    <Include File="./assets_Collier.xml" />
+
+    <!-- Battle Cruiser -->
+    <Include File="./assets_BattleCruiser.xml" />
+    
+    <!-- Monitor -->
+    <Include File="./assets_Monitor.xml" />
+
+    <!-- The Great Easern & The Creative Eastern-->
+    <Include File="./assets_GreatEastern.xml" />
+
+    <!-- World-Class Reefer (aka Great White) & Creative Reefer -->
+    <Include File="./assets_Reefer.xml" />
+    
+    <!-- Oil Tanker -->
+    <Include File="./assets_Tanker.xml" />
+
+    <!-- Trade Route Adjustment -->
+    <Include File="./assets_TradeRoute.xml" />
+</ModOps>

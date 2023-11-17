@@ -1,0 +1,21 @@
+<ModOps>
+  <ImyaTweaks Title="Battle Cruiser" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_battlecruiser.png" />
+  <!-- 100442 = Battle Cruiser (Millitary), 102425 = Pyrphorian Battle Cruiser - For Sale -->
+  <!-- NOT USED: 
+          103682 = S03 Challenger 9 Enemy Ship (Pyrphorian Battle Cruiser), 119354 = 2nd Skin (DEPRECATED), 101248 = CQO 
+  -->
+  <ModOp Type="merge" GUID="100442, 102425" Path="/Values/ItemContainer" ModOpID="MWBattleCruiserOP" Skip="1">
+    <SlotCount>3</SlotCount>
+    <StackLimit>50</StackLimit>
+    <SocketCount>4</SocketCount>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWBattleCruiserOP" ExposeID="Battle Cruiser SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. [Default = 3]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWBattleCruiserOP" ExposeID="Battle Cruiser StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 50] [Spice it Up = 75]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWBattleCruiserOP" ExposeID="Battle Cruiser SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 4]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_BattleCruiser.imyatweak.include.xml" />
+</ModOps>

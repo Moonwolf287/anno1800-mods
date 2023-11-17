@@ -1,0 +1,30 @@
+<ModOps>
+  <ImyaTweaks Title="Clipper" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_clipper.png" />
+  <!-- 100441 = Clipper (Trade), 143706 = Clipper Actuary (aka Actuary's Clipper), 105538 = Paddle Streamer (Trade)_MilestoneReward-->
+  <!-- NOT USED: 
+          114125 = Lady Jane Quest Clipper, 114140 = Arctic Clipper (Trade) with Starting Materials, 80068 2nd Skin (DEPRECATED), 
+          103079 = Clipper (Trade) Already Auctionned Art, 80018 = LoL Clipper (Trade) with Starting Materials, 80026 LoL Clipper (Archibald Blake) - escortable
+        QO / CQO / TQO:
+          131349, 131350, 131351, 101153, 100567, 102371, 102614, 102298, 102514, 102549, 102669, 103108, 110703, 110711, 111196, 112168, 118928
+        Non Controllables:
+          102577 = Clipper (Bente Jorgensen), 102578 = Clipper (Princess Qing), 102579 = Clipper (Willie Wibblesock), 102580 = Clipper (George Smith),
+          102581 = Clipper (Beryl OMara), 102582 = Clipper (Artur Gasparov), 102583 = Clipper (Carl von Malching), 102584 = Clipper (Alonso Gravez),
+          102585 = Clipper (Vicente Silva), 102586 = Clipper (Margaret Hunt), 102587 = Clipper (Queen), 102588 = Clipper (Archibald Blake), 
+          102589 = Clipper (Anne Harlow), 102590 = Clipper (Jean La Fortune), 102591 = Clipper (Isabel Sarmento), 102592 = Clipper (Old Nate),
+          102593 = Clipper (Eli Bleakworth), 102594 = Clipper (Madame Kahina), 110688 = Clipper (Hugo Mercier)
+  -->
+  <ModOp Type="merge" GUID="100441,143706,105538" Path="/Values/ItemContainer" ModOpID="MWClipperOP" Skip="1">
+    <SlotCount>4</SlotCount>
+    <StackLimit>50</StackLimit>
+    <SocketCount>1</SocketCount>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWClipperOP" ExposeID="Clipper SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. [Default = 4]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWClipperOP" ExposeID="Clipper StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 50] [Spice it Up = 75]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWClipperOP" ExposeID="Clipper SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 1]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_Clipper.imyatweak.include.xml" />
+</ModOps>

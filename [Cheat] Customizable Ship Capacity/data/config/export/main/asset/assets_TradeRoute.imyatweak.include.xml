@@ -1,0 +1,10 @@
+<ModOps>
+  <ModOp Path="/Values/TradeRouteFeature/TransportationTypes/Normal" GUID="140011" Type="merge">
+    <DefaultGoodTransferAmount>50</DefaultGoodTransferAmount>
+    <MaxGoodTransferAmount>50</MaxGoodTransferAmount>
+  </ModOp>
+  <ModOp Path="/Values/TradeRouteFeature/TransportationTypes/Oil" GUID="140011" Type="merge">
+    <DefaultGoodTransferAmount>400</DefaultGoodTransferAmount>
+    <MaxGoodTransferAmount>400</MaxGoodTransferAmount>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,22 @@
+<ModOps>
+  <ImyaTweaks Title="Monitor" Icon="data/ui/2kimages/main/3dicons/ships/icon_ship_monitor.png" />
+  <!-- 100443 = Monitor (Military), 1537 = Monitor Arctic Crocodile (Military) (aka Blue Flamethrower Monitor), 119095 = Monitor (Military) Ketema, 
+       720 = Monitor FLaK (Military), 968 = Monitor Crocodile (Military) (aka Flamethrower Monitor) -->
+  <!-- NOT USED:
+          104017 = AirshipPirate_Monitor FLaK (Military), 102432 = Pirate Monitor, 102422 = Pirate Monitor - For Sale, 102423 = Pyrphorian Monitor - For Sale
+  -->
+  <ModOp Type="merge" GUID="100443,1537,119095,720,968" Path="/Values/ItemContainer" ModOpID="MWMonitorOP" Skip="1">
+    <SlotCount>2</SlotCount>
+    <StackLimit>50</StackLimit>
+    <SocketCount>2</SocketCount>
+  </ModOp>
+  <ImyaExpose Path="self::SlotCount" ModOpID="MWMonitorOP" ExposeID="Monitor SlotCount" Kind="Slider" Description="Adjust number of Cargo Slots. [Default = 2]">
+    <SliderDefinition Min="0" Max="8" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::StackLimit" ModOpID="MWMonitorOP" ExposeID="Monitor StackLimit" Description="Adjust limit of cargo slot stack size. [Default = 50]">
+  </ImyaExpose>
+  <ImyaExpose Path="self::SocketCount" ModOpID="MWMonitorOP" ExposeID="Monitor SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 2]">
+    <SliderDefinition Min="0" Max="6" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./assets_Monitor.imyatweak.include.xml" />
+</ModOps>
