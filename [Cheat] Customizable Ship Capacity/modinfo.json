@@ -1,5 +1,5 @@
 {
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "ModID": "Moon_CustomizableShipCapacity",
     "ModDependencies": null,
     "LoadAfterIds": null,
@@ -48,4 +48,5 @@
     "CreatorName": "Moonwolf287",
     "CreatorContact": "https://github.com/Moonwolf287/anno1800-mods",
     "BannerImage": "banner.png",
+    "ModioResourceId": 3505180
 }
