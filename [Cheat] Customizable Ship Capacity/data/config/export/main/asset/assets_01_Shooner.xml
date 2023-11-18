@@ -19,5 +19,5 @@
   <ImyaExpose Path="self::SocketCount" ModOpID="MWShoonerOP" ExposeID="Shooner SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 1]">
     <SliderDefinition Min="0" Max="6" Stepping="1" />
   </ImyaExpose>
-  <Include File="./assets_Shooner.imyatweak.include.xml" />
+  <Include File="./assets_01_Shooner.imyatweak.include.xml" />
 </ModOps>

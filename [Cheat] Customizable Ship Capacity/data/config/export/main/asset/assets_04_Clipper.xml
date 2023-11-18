@@ -26,5 +26,5 @@
   <ImyaExpose Path="self::SocketCount" ModOpID="MWClipperOP" ExposeID="Clipper SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 1]">
     <SliderDefinition Min="0" Max="6" Stepping="1" />
   </ImyaExpose>
-  <Include File="./assets_Clipper.imyatweak.include.xml" />
+  <Include File="./assets_04_Clipper.imyatweak.include.xml" />
 </ModOps>

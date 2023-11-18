@@ -26,5 +26,5 @@
   <ImyaExpose Path="self::MaxGoodTransferAmount" ModOpID="MWMailTradeRoute" ExposeID="Airship Mail Max Good Transfer Amount" Description="Adjust the maximum airship mail trade transfer amount. [Default = 50]">
   </ImyaExpose>
   -->
-  <Include File="./assets_TradeRoute.imyatweak.include.xml" />
+  <Include File="./assets_50_TradeRoute.imyatweak.include.xml" />
 </ModOps>

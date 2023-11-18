@@ -18,5 +18,5 @@
   <ImyaExpose Path="self::SocketCount" ModOpID="MWMonitorOP" ExposeID="Monitor SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 2]">
     <SliderDefinition Min="0" Max="6" Stepping="1" />
   </ImyaExpose>
-  <Include File="./assets_Monitor.imyatweak.include.xml" />
+  <Include File="./assets_08_Monitor.imyatweak.include.xml" />
 </ModOps>

@@ -14,5 +14,5 @@
   <ImyaExpose Path="self::SocketCount" ModOpID="MWTankerOP" ExposeID="Oil Tanker SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 0]">
     <SliderDefinition Min="0" Max="6" Stepping="1" />
   </ImyaExpose>
-  <Include File="./assets_Tanker.imyatweak.include.xml" />
+  <Include File="./assets_11_Tanker.imyatweak.include.xml" />
 </ModOps>

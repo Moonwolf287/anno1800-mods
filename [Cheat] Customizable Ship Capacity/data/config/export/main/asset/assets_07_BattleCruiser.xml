@@ -17,5 +17,5 @@
   <ImyaExpose Path="self::SocketCount" ModOpID="MWBattleCruiserOP" ExposeID="Battle Cruiser SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 4]">
     <SliderDefinition Min="0" Max="6" Stepping="1" />
   </ImyaExpose>
-  <Include File="./assets_BattleCruiser.imyatweak.include.xml" />
+  <Include File="./assets_07_BattleCruiser.imyatweak.include.xml" />
 </ModOps>

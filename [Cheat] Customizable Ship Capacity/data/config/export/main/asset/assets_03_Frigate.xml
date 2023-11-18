@@ -21,5 +21,5 @@
   <ImyaExpose Path="self::SocketCount" ModOpID="MWFrigateOP" ExposeID="Frigate SocketCount" Kind="Slider" Description="Adjust number of Item Sockets. [Default = 2]">
     <SliderDefinition Min="0" Max="6" Stepping="1" />
   </ImyaExpose>
-  <Include File="./assets_Frigate.imyatweak.include.xml" />
+  <Include File="./assets_03_Frigate.imyatweak.include.xml" />
 </ModOps>
