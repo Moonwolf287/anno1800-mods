@@ -30,3 +30,6 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+**List of other mods installer**
+If you are playing with multiple mods, a cause could be incompatibility between mods. Please list all mods you have installed.
