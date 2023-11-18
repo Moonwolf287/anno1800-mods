@@ -22,10 +22,10 @@ Removes royal taxes completely. There is nothing else done to balance it out.
 <br/>
 <hr>
 <br/>
-<p style="text-align: center;">
+<p align="center" style="text-align: center;">
     Subscribe on <a href="https://mod.io/g/anno-1800/u/moonwolf287">Mod.io</a>
 </p>
-<p style="text-align: center;">
+<p align="center" style="text-align: center;">
     <a href="https://discord.gg/qmzsBxkUxJ">
     Anno 1800 Modding Discord
     </a>
